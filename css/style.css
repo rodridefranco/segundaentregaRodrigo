@@ -83,7 +83,6 @@ main section {
     margin-bottom: 40px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
     box-shadow:#20e006
 }
 
@@ -216,6 +215,12 @@ footer .redes_sociales a:hover {
 }
 
 .grid_inicio {
-
-
+    display: grid;
+    align-content: space-around;
+    /* columnas */
+    grid-template-columns: 2fr 1fr;
+    /* Filas */
+    grid-template-rows: 1.5fr 1fr;
+    
 }
+
